@@ -1,4 +1,4 @@
-readme_content = """
+
 # Superstore Profitability Analysis
 
 ## 📘 Project Description
@@ -19,21 +19,7 @@ This project provides a comprehensive analysis of Superstore's operations with t
 - **Tables**
 - **Bookcases**
 
-#### 🔎 Discontinued Product Recommendation:
-Using a scatterplot of *Profit vs. Sales by Product Name*, products with:
-- High sales but negative profit were flagged for discontinuation.
-- Visualizations clearly indicated several **Table** and **Bookcase** SKUs in this category.
 
-#### 📌 Subcategory Recommendations:
-**Focus On (High Margin & Volume):**
-- Phones
-- Binders
-- Chairs
-
-**Discontinue (Low/Negative Profit):**
-- Tables
-- Bookcases
-- Supplies
 
 > **Visualization Used:** Bubble chart with axes representing total sales and total profit per subcategory; size indicating order count.
 
@@ -62,7 +48,24 @@ Budget allocation considers both the historical profit peak and return on market
 ### Part 3: Returns and Risk Analysis
 
 #### ✅ Calculated Field for "Returned":
-```sql
 IF ISNULL([Returned]) THEN 0
 ELSEIF [Returned] = "Yes" THEN 1
 END
+
+## Recommendations
+
+ 🔎 Discontinued Product Recommendation:
+Using a scatterplot of *Profit vs. Sales by Product Name*, products with:
+- High sales but negative profit were flagged for discontinuation.
+- Visualizations clearly indicated several **Table** and **Bookcase** SKUs in this category.
+
+#### 📌 Subcategory Recommendations:
+**Focus On (High Margin & Volume):**
+- Phones
+- Binders
+- Chairs
+
+**Discontinue (Low/Negative Profit):**
+- Tables
+- Bookcases
+- Supplies
