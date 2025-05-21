@@ -1,0 +1,15 @@
+I have been hired as a consultant to review the superstore’s operations and increase its profitability to avoid bankruptcy.
+
+My tasks are listed below:
+
+Part 1:
+* Identify the top two profit centers and the two biggest loss-makers.
+* Determine which products the superstore should discontinue selling, justifying your recommendation with a visualization.
+* Pinpoint three product subcategories the store should focus on and three that it should stop selling.
+
+Part 2:
+* Identify the three most promising combinations of states and months for advertising. Visualize the average profit for each month in those three states and explain how much you'd be willing to invest in advertising for those specific state-month combinations.
+Part 3:
+* Create a calculated field for the "Returned" status, where null values are represented as zero and "Yes" values as 1.
+* Determine which products and which customers have the highest return rates.
+* Develop a visualization showing the correlation between average profit and average return rate, using a dimension of your choice (e.g., state, shipping mode, product type).Use Tableau for Visualizations.
